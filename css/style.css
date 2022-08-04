@@ -15,7 +15,6 @@ h1 {
 	margin: auto;
 	text-align: center;
 	font-family: "Arvo";
-	background-color: none;
 }
 
 ul {
@@ -86,14 +85,20 @@ li a {
 	transform: translateY(0) rotateX(0);
 }
 
-.landing {
+div#center-graphic {
+	width: 100vh;
+	height: 80vh;
+	position: relative;
+	top: 10vh;
+	text-align: center;
+	margin: auto;
+	margin-top: 10vh;
 }
 
-div#center-graphic {
-	width: 30vw;
-	height: 30vh;
-	background-color: #1a1723;
-	display: flex;
-	margin: auto;
-	margin-top: 30vh;
+.centertext {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: none;
 }
