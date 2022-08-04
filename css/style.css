@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #282436;
+	text-decoration: none;
+	font-family: "Open Sans";
+	color: #e0d7ff;
+	outline: 0;
+}
+
+h1 {
+	text-transform: lowercase;
+	font-size: 2rem;
+	font-weight: 100;
+	margin: auto;
+	text-align: center;
+	font-family: "Arvo";
+	background-color: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #282436;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+}
+
+.btn-flip {
+	opacity: 1;
+	outline: 0;
+	color: #ffffff;
+	line-height: 50px;
+	position: relative;
+	text-align: center;
+	letter-spacing: 1px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: "Open Sans";
+	text-transform: uppercase;
+}
+.btn-flip:hover:after {
+	opacity: 1;
+	transform: translateY(0) rotateX(0);
+}
+.btn-flip:hover:before {
+	opacity: 0;
+	transform: translateY(50%) rotateX(90deg);
+}
+.btn-flip:after {
+	top: 0;
+	left: 0;
+	opacity: 0;
+	width: 100%;
+	color: #282436;
+	display: block;
+	transition: 0.5s;
+	position: absolute;
+	background: #e0d7ff;
+	content: attr(data-back);
+	transform: translateY(-50%) rotateX(90deg);
+}
+.btn-flip:before {
+	top: 0;
+	left: 0;
+	opacity: 1;
+	color: #ffffff;
+	display: block;
+	padding: 0 30px;
+	line-height: 50px;
+	transition: 0.5s;
+	position: relative;
+	background: #282436;
+	content: attr(data-front);
+	transform: translateY(0) rotateX(0);
+}
+
+.landing {
+}
+
+div#center-graphic {
+	width: 30vw;
+	height: 30vh;
+	background-color: #1a1723;
+	display: flex;
+	margin: auto;
+	margin-top: 30vh;
+}
