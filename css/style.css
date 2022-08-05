@@ -1,11 +1,22 @@
 * {
 	margin: 0;
 	padding: 0;
-	background-color: #282436;
+	/* background-color: #282436; */
 	text-decoration: none;
 	font-family: "Open Sans";
 	color: #e0d7ff;
 	outline: 0;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-image: url("/img/background.png");
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	background-size: auto;
 }
 
 h1 {
@@ -30,9 +41,22 @@ h2 {
 	letter-spacing: 2px;
 }
 
+h3 {
+	text-transform: lowercase;
+	font-size: 2rem;
+	font-weight: 100;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 5vh;
+	margin-top: 4vh;
+	font-family: "Arvo";
+	letter-spacing: 5px;
+}
+
 p {
-	font-size: 1.25rem;
+	font-size: 1rem;
 	font-family: "Open Sans";
+	text-transform: uppercase;
 }
 
 ul {
@@ -113,6 +137,17 @@ div#center-graphic {
 	margin-top: 10vh;
 }
 
+div#contact-me {
+	width: 20vw;
+	height: 15vh;
+	position: relative;
+	border: 20px solid;
+	border-color: #1d182b;
+	text-align: center;
+	margin: auto;
+	padding: 5vh;
+}
+
 .centertext {
 	position: absolute;
 	top: 30vh;
@@ -139,11 +174,4 @@ div#center-graphic {
 .center {
 	justify-content: center;
 	align-items: center;
-}
-
-div#contact-me {
-	height: 50vh;
-	width: 60vw;
-	/* border-color: #1d182b; */
-	text-align: center;
 }
