@@ -14,7 +14,25 @@ h1 {
 	font-weight: 100;
 	margin: auto;
 	text-align: center;
+	margin-bottom: 5vh;
 	font-family: "Arvo";
+	letter-spacing: 5px;
+}
+
+h2 {
+	text-transform: lowercase;
+	font-size: 1.8rem;
+	font-weight: 100;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 3vh;
+	font-family: "Arvo";
+	letter-spacing: 2px;
+}
+
+p {
+	font-size: 1.25rem;
+	font-family: "Open Sans";
 }
 
 ul {
@@ -89,7 +107,7 @@ div#center-graphic {
 	width: 100vh;
 	height: 80vh;
 	position: relative;
-	top: 10vh;
+	top: 2vh;
 	text-align: center;
 	margin: auto;
 	margin-top: 10vh;
@@ -97,8 +115,35 @@ div#center-graphic {
 
 .centertext {
 	position: absolute;
-	top: 30%;
+	top: 30vh;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background: none;
+}
+
+.landing {
+	height: 100vh;
+}
+
+.full {
+	height: 100vh;
+	display: flex;
+}
+
+.text {
+	margin: 8vh;
+	width: 40vw;
+	text-align: left;
+}
+
+.center {
+	justify-content: center;
+	align-items: center;
+}
+
+div#contact-me {
+	height: 50vh;
+	width: 60vw;
+	/* border-color: #1d182b; */
+	text-align: center;
 }
