@@ -163,6 +163,7 @@ div#contact-me {
 .full {
 	height: 100vh;
 	display: flex;
+	float: center;
 }
 
 .text {
