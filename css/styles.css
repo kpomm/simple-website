@@ -80,19 +80,6 @@ ul {
 	background-color: #282436;
 }
 
-ul.contact-list {
-	background: none;
-	width: 80%;
-	margin: 0 auto;
-	padding-top: 0vh;
-}
-
-li .contact-list {
-	display: inline-block;
-	background: none;
-	margin: 10px 0;
-}
-
 li {
 	float: left;
 }
@@ -185,7 +172,7 @@ div#contact-graphic {
 }
 
 .half {
-	height: 50vh;
+	height: 60vh;
 	display: flex;
 	justify-content: space-evenly;
 	margin-bottom: 10vh;
